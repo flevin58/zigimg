@@ -1,6 +1,12 @@
 .{
     .name = .zigimg,
     .version = "0.1.0",
+    .dependencies = .{
+        .zigimg = .{
+            .url = "git+https://github.com/flevin58/zigimg.git#ad8a825976ec67ff6e1e9e9cad405b1627617aad",
+            .hash = "zigimg-0.1.0-38i9UWsVEQDqxC-NOtPmUmDkeqgotp4zEJJzHkiaC7mJ",
+        },
+    },
     .fingerprint = 0x6d2b443c51bdc8df,
     .paths = .{""},
 }
